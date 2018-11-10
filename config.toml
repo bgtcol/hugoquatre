@@ -1,0 +1,36 @@
+baseURL = ""
+languageCode = "fr-FR"
+title = "Golang.fr : un site français sur le langage de programmation Go"
+theme = "Mainroad"
+
+[Author]
+    name = "jbb"
+    bio = "Je suis un développeur informatique mais aussi un consultant SEO. Cette double casquette me permet de créer des outils pour permettre à mes clients d'atteindre leurs objectifs sur le web."
+    avatar = "img/avatar.png"
+
+
+[Params]
+    subtitle = "Un site français sur le langage de programmation Go" # Subtitle of your site
+    description = "Un site français sur le langage de programmation Go" # Description of your site
+    opengraph = true
+    readmore = true # Show "Read more" button in list if true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = true
+    post_navigation = true
+    postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
+    #postSections = ["blog", "news"] # alternative that shows more than one section's pages
+
+
+[Params.widgets]
+    search = true # Enable "Search" widget
+    recent_articles = true # Enable "Recent articles" widget
+    recent_articles_num = 10 # Set the number of articles in the "Recent articles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+    social = true # Enable "Social" widget
+    social_facebook = "username"
+    social_twitter = "username"
+    social_linkedin = "username"
+    social_github = "username"
+    social_email = "example@example.com"
